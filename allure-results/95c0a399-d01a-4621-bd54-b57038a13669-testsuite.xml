@@ -1,0 +1,171 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661078473976' stop='1661078485540'>
+    <name>collection</name>
+    <title>collection</title>
+    <test-cases>
+        <test-case start='1661078485163' status='broken' stop='1661078485163'>
+            <name>"before all" hook for "remove photo from collection successfully"</name>
+            <title>"before all" hook for "remove photo from collection successfully"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.request()` failed on:
+                
+                https://api.unsplash.com/collections
+                
+                The response we received from your web server was:
+                
+                  > 403: Forbidden
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: POST
+                URL: https://api.unsplash.com/collections
+                Headers: {
+                  "Connection": "keep-alive",
+                  "Authorization": "Bearer INux6IxQuZLjnBq9Sg00riAK7CNUNODvts_uA6EpGkY",
+                  "accept": "application/json",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+                  "cookie": "_gat=1; _sp_ses.0295=*; _gid=GA1.2.1296606412.1661078477; ugid=362e4df03dfadb940f70063d8ad70d185536928; _ga=GA1.2.378058082.1661078477; _sp_id.0295=86a361c30d74f7fc.1661078477.1.1661078482.1661078477.e4b7e3c2-b5e5-4893-8a9c-bcbcc6416e35",
+                  "accept-encoding": "gzip, deflate",
+                  "content-type": "application/json",
+                  "content-length": 30
+                }
+                Body: {"title":"Flowers collection"}
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 403 - Forbidden
+                Headers: {
+                  "connection": "keep-alive",
+                  "server": "Cowboy",
+                  "content-type": "application/json",
+                  "access-control-allow-origin": "*",
+                  "access-control-request-method": "*",
+                  "access-control-allow-headers": "*",
+                  "access-control-expose-headers": "Link,X-Total,X-Per-Page,X-RateLimit-Limit,X-RateLimit-Remaining",
+                  "content-language": "en",
+                  "cache-control": "no-cache",
+                  "x-ratelimit-limit": "50",
+                  "x-ratelimit-remaining": "35",
+                  "x-request-id": "fc87a889-5553-4f31-985d-d61b4b7ec74d",
+                  "x-runtime": "0.012805",
+                  "content-encoding": "gzip",
+                  "strict-transport-security": "max-age=31536000; includeSubDomains",
+                  "via": "1.1 vegur, 1.1 varnish, 1.1 varnish",
+                  "accept-ranges": "bytes",
+                  "date": "Sun, 21 Aug 2022 10:41:24 GMT",
+                  "x-served-by": "cache-iad-kcgs7200120-IAD, cache-qpg1259-QPG",
+                  "x-cache": "MISS, MISS",
+                  "x-cache-hits": "0, 0",
+                  "x-timer": "S1661078484.805989,VS0,VE259",
+                  "vary": "Accept-Encoding, Origin,Authorization,Accept-Language,Accept",
+                  "transfer-encoding": "chunked"
+                }
+                Body: {
+                  "errors": [
+                    "You need to confirm your email to perform that action"
+                  ]
+                }
+                
+                
+                https://on.cypress.io/request
+                
+                Because this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `collection`</message>
+                <stack-trace>CypressError: `cy.request()` failed on:
+                
+                https://api.unsplash.com/collections
+                
+                The response we received from your web server was:
+                
+                  > 403: Forbidden
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: POST
+                URL: https://api.unsplash.com/collections
+                Headers: {
+                  "Connection": "keep-alive",
+                  "Authorization": "Bearer INux6IxQuZLjnBq9Sg00riAK7CNUNODvts_uA6EpGkY",
+                  "accept": "application/json",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+                  "cookie": "_gat=1; _sp_ses.0295=*; _gid=GA1.2.1296606412.1661078477; ugid=362e4df03dfadb940f70063d8ad70d185536928; _ga=GA1.2.378058082.1661078477; _sp_id.0295=86a361c30d74f7fc.1661078477.1.1661078482.1661078477.e4b7e3c2-b5e5-4893-8a9c-bcbcc6416e35",
+                  "accept-encoding": "gzip, deflate",
+                  "content-type": "application/json",
+                  "content-length": 30
+                }
+                Body: {"title":"Flowers collection"}
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 403 - Forbidden
+                Headers: {
+                  "connection": "keep-alive",
+                  "server": "Cowboy",
+                  "content-type": "application/json",
+                  "access-control-allow-origin": "*",
+                  "access-control-request-method": "*",
+                  "access-control-allow-headers": "*",
+                  "access-control-expose-headers": "Link,X-Total,X-Per-Page,X-RateLimit-Limit,X-RateLimit-Remaining",
+                  "content-language": "en",
+                  "cache-control": "no-cache",
+                  "x-ratelimit-limit": "50",
+                  "x-ratelimit-remaining": "35",
+                  "x-request-id": "fc87a889-5553-4f31-985d-d61b4b7ec74d",
+                  "x-runtime": "0.012805",
+                  "content-encoding": "gzip",
+                  "strict-transport-security": "max-age=31536000; includeSubDomains",
+                  "via": "1.1 vegur, 1.1 varnish, 1.1 varnish",
+                  "accept-ranges": "bytes",
+                  "date": "Sun, 21 Aug 2022 10:41:24 GMT",
+                  "x-served-by": "cache-iad-kcgs7200120-IAD, cache-qpg1259-QPG",
+                  "x-cache": "MISS, MISS",
+                  "x-cache-hits": "0, 0",
+                  "x-timer": "S1661078484.805989,VS0,VE259",
+                  "vary": "Accept-Encoding, Origin,Authorization,Accept-Language,Accept",
+                  "transfer-encoding": "chunked"
+                }
+                Body: {
+                  "errors": [
+                    "You need to confirm your email to perform that action"
+                  ]
+                }
+                
+                
+                https://on.cypress.io/request
+                
+                Because this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `collection`
+                    at https://unsplash.com/__cypress/runner/cypress_runner.js:154196:80
+                    at tryCatcher (https://unsplash.com/__cypress/runner/cypress_runner.js:11318:23)
+                    at Promise._settlePromiseFromHandler (https://unsplash.com/__cypress/runner/cypress_runner.js:9253:31)
+                    at Promise._settlePromise (https://unsplash.com/__cypress/runner/cypress_runner.js:9310:18)
+                    at Promise._settlePromise0 (https://unsplash.com/__cypress/runner/cypress_runner.js:9355:10)
+                    at Promise._settlePromises (https://unsplash.com/__cypress/runner/cypress_runner.js:9435:18)
+                    at _drainQueueStep (https://unsplash.com/__cypress/runner/cypress_runner.js:6025:12)
+                    at _drainQueue (https://unsplash.com/__cypress/runner/cypress_runner.js:6018:9)
+                    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://unsplash.com/__cypress/runner/cypress_runner.js:6034:5)
+                    at Async.drainQueues (https://unsplash.com/__cypress/runner/cypress_runner.js:5904:14)
+                From Your Spec Code:
+                    at Context.eval (https://unsplash.com/__cypress/tests?p=cypress\support\e2e.js:175:6)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

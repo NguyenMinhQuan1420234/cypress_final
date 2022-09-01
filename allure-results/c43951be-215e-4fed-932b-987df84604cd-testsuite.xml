@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661079051740' stop='1661079060012'>
+    <name>download photo</name>
+    <title>download photo</title>
+    <test-cases>
+        <test-case start='1661079058405' status='broken' stop='1661079059867'>
+            <name>download photo successfully</name>
+            <title>download photo successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.request()` failed on:
+                
+                https://api.unsplash.com/photos/IXlZYT_ah0k/download
+                
+                The response we received from your web server was:
+                
+                  > 403: Forbidden
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: GET
+                URL: https://api.unsplash.com/photos/IXlZYT_ah0k/download
+                Headers: {
+                  "Connection": "keep-alive",
+                  "Authorization": "Bearer INux6IxQuZLjnBq9Sg00riAK7CNUNODvts_uA6EpGkY",
+                  "accept": "application/json",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+                  "cookie": "_gat=1; _sp_ses.0295=*; _gid=GA1.2.1107139127.1661079054; ugid=362e4df03dfadb940f70063d8ad70d185536930; _ga=GA1.2.1486561937.1661079054; _sp_id.0295=6b71cc4ea8332e25.1661079054.1.1661079059.1661079054.cc2d4436-7fc2-43b2-89b4-75d4dd22184e",
+                  "accept-encoding": "gzip, deflate"
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 403 - Forbidden
+                Headers: {
+                  "connection": "keep-alive",
+                  "server": "Cowboy",
+                  "x-ratelimit-limit": "50",
+                  "x-ratelimit-remaining": "0",
+                  "x-request-id": "f96ecf85-3c34-4da7-ac11-7aedc77f79e0",
+                  "x-runtime": "0.007721",
+                  "content-encoding": "gzip",
+                  "strict-transport-security": "max-age=31536000; includeSubDomains",
+                  "via": "1.1 vegur, 1.1 varnish, 1.1 varnish",
+                  "accept-ranges": "bytes",
+                  "date": "Sun, 21 Aug 2022 10:50:58 GMT",
+                  "x-served-by": "cache-iad-kjyo7100174-IAD, cache-qpg1271-QPG",
+                  "x-cache": "MISS, MISS",
+                  "x-cache-hits": "0, 0",
+                  "x-timer": "S1661079058.339098,VS0,VE244",
+                  "vary": "Accept-Encoding, Origin,Authorization,Accept-Language,Accept",
+                  "transfer-encoding": "chunked"
+                }
+                Body: Rate Limit Exceeded
+                
+                
+                https://on.cypress.io/request</message>
+                <stack-trace>CypressError: `cy.request()` failed on:
+                
+                https://api.unsplash.com/photos/IXlZYT_ah0k/download
+                
+                The response we received from your web server was:
+                
+                  > 403: Forbidden
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: GET
+                URL: https://api.unsplash.com/photos/IXlZYT_ah0k/download
+                Headers: {
+                  "Connection": "keep-alive",
+                  "Authorization": "Bearer INux6IxQuZLjnBq9Sg00riAK7CNUNODvts_uA6EpGkY",
+                  "accept": "application/json",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+                  "cookie": "_gat=1; _sp_ses.0295=*; _gid=GA1.2.1107139127.1661079054; ugid=362e4df03dfadb940f70063d8ad70d185536930; _ga=GA1.2.1486561937.1661079054; _sp_id.0295=6b71cc4ea8332e25.1661079054.1.1661079059.1661079054.cc2d4436-7fc2-43b2-89b4-75d4dd22184e",
+                  "accept-encoding": "gzip, deflate"
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 403 - Forbidden
+                Headers: {
+                  "connection": "keep-alive",
+                  "server": "Cowboy",
+                  "x-ratelimit-limit": "50",
+                  "x-ratelimit-remaining": "0",
+                  "x-request-id": "f96ecf85-3c34-4da7-ac11-7aedc77f79e0",
+                  "x-runtime": "0.007721",
+                  "content-encoding": "gzip",
+                  "strict-transport-security": "max-age=31536000; includeSubDomains",
+                  "via": "1.1 vegur, 1.1 varnish, 1.1 varnish",
+                  "accept-ranges": "bytes",
+                  "date": "Sun, 21 Aug 2022 10:50:58 GMT",
+                  "x-served-by": "cache-iad-kjyo7100174-IAD, cache-qpg1271-QPG",
+                  "x-cache": "MISS, MISS",
+                  "x-cache-hits": "0, 0",
+                  "x-timer": "S1661079058.339098,VS0,VE244",
+                  "vary": "Accept-Encoding, Origin,Authorization,Accept-Language,Accept",
+                  "transfer-encoding": "chunked"
+                }
+                Body: Rate Limit Exceeded
+                
+                
+                https://on.cypress.io/request
+                    at https://unsplash.com/__cypress/runner/cypress_runner.js:154196:80
+                    at tryCatcher (https://unsplash.com/__cypress/runner/cypress_runner.js:11318:23)
+                    at Promise._settlePromiseFromHandler (https://unsplash.com/__cypress/runner/cypress_runner.js:9253:31)
+                    at Promise._settlePromise (https://unsplash.com/__cypress/runner/cypress_runner.js:9310:18)
+                    at Promise._settlePromise0 (https://unsplash.com/__cypress/runner/cypress_runner.js:9355:10)
+                    at Promise._settlePromises (https://unsplash.com/__cypress/runner/cypress_runner.js:9435:18)
+                    at _drainQueueStep (https://unsplash.com/__cypress/runner/cypress_runner.js:6025:12)
+                    at _drainQueue (https://unsplash.com/__cypress/runner/cypress_runner.js:6018:9)
+                    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://unsplash.com/__cypress/runner/cypress_runner.js:6034:5)
+                    at Async.drainQueues (https://unsplash.com/__cypress/runner/cypress_runner.js:5904:14)
+                From Your Spec Code:
+                    at Context.eval (https://unsplash.com/__cypress/tests?p=cypress\support\e2e.js:175:6)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661082790146' stop='1661082799705'>
+    <name>download photo</name>
+    <title>download photo</title>
+    <test-cases>
+        <test-case start='1661082797720' status='passed' stop='1661082799668'>
+            <name>download photo successfully</name>
+            <title>download photo successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

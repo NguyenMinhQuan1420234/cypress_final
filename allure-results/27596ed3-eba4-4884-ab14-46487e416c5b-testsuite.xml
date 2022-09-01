@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661078517655' stop='1661078525925'>
+    <name>Click Following Photographer</name>
+    <title>Click Following Photographer</title>
+    <test-cases>
+        <test-case start='1661078523608' status='passed' stop='1661078525880'>
+            <name>follow photographer</name>
+            <title>follow photographer</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661082330631' stop='1661082348981'>
+    <name>Edit Profile</name>
+    <title>Edit Profile</title>
+    <test-cases>
+        <test-case start='1661082337656' status='passed' stop='1661082348977'>
+            <name>edit profile</name>
+            <title>edit profile</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

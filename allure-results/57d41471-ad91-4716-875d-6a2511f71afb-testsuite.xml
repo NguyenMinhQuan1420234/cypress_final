@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661079029111' stop='1661079045892'>
+    <name>collection</name>
+    <title>collection</title>
+    <test-cases>
+        <test-case start='1661079039904' status='passed' stop='1661079045875'>
+            <name>remove photo from collection successfully</name>
+            <title>remove photo from collection successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

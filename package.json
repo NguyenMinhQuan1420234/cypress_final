@@ -1,0 +1,28 @@
+{
+  "name": "cypress_final",
+  "version": "1.0.0",
+  "description": "final group01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run --reporter mocha-allure-reporter",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
+    "test:allure": "npm run cy:run && npm run report:allure"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "group01",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.18.1",
+    "cy-verify-downloads": "^0.1.8",
+    "cypress": "^10.6.0",
+    "cypress-downloadfile": "^1.2.2",
+    "cypress-real-events": "^1.7.1",
+    "cypress-xpath": "^2.0.1",
+    "i": "^0.3.7",
+    "mocha-allure-reporter": "^1.4.0",
+    "npm": "^8.18.0"
+  }
+}

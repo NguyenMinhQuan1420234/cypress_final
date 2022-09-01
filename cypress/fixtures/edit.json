@@ -1,0 +1,26 @@
+{
+    "defaultProfile": {
+        "firstname": "default firstname",
+        "lastname": "default lastname",
+        "username": "default_username",
+        "instagram": "default_instagram",
+        "location": "default location",
+        "site" : "https://default.com",
+        "bio" : "default bio",
+        "interest": "default interest",
+        "twitter": "default_twitter",
+        "donation" : "default_donation"
+    },
+    "newProfile": {
+        "firstname": "Kimi no",
+        "lastname": "Nawa",
+        "username": "RumbleDravenLOL",
+        "instagram": "quannguyen",
+        "location": "Am Phu",
+        "site" : "https://mysite.com",
+        "bio" : "This is an Edit",
+        "interest": "comic",
+        "twitter": "quantwttier",
+        "donation" : "DonateDonkey@com"
+    }
+}
